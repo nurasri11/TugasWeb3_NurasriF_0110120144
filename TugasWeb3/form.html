@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>REGISTRASI SISWA BARU</title>
+</head>
+<body bgcolor="skyblue">
+<body>
+    <form action="proses.php" method="POST">
+    <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <h1 align=center style="background-color: khaki;font-style: italic;color: black;">PENERIMAAN SISWA BARU</h1>
+        <hr>
+            <legend>DATA DIRI</legend>
+        <hr>
+            <div>
+                <label for="Nama Lengkap">Nama Lengkap:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Masukan Nama Lengkap">
+            </div>
+            <div>
+                <label for="NIK">Nomor Identitas (NIK):</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Masukan Nomor NIK">
+            </div>
+            <div>
+                <label for="Jenis Kelamin">Jenis Kelamin:</label>
+            </div>
+            <div>
+                <input type="radio" name="jk">
+                <label for="Laki-laki">Laki-laki</label>
+                <input type="radio" name="jk">
+                <label for="Perempuan">Perempuan</label>
+            </div>
+            <div>
+                <label for="Tempat Lahir">Tempat Lahir:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Masukan Tempat Lahir">
+            </div>
+            <div>
+                <label for="Tanggal Lahir">Tanggal Lahir:</label>
+            </div>
+            <div>
+                <input type="date">
+            </div>
+            <div>
+                <label for="Kewarganegaraan">Kewarganegaraan:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Masukan Kewarganegaraan">
+            </div>
+            <div>
+                <label for="Agama">Agama:</label>
+            </div>
+            <div>
+                <select name="Agama" id="">
+                    <option value="Pilih">--Pilih--</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Khonghucu">Khonghucu</option>
+                </select>
+            </div>
+            <div>
+                <label for="No Telp">No Telp:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Masukan No Telp">
+            </div>
+            <div>
+                <label for="Email">Email</label>
+            </div>
+            <div>
+                <input type="Email" placeholder="Masukan Email">
+            </div>
+    </div>
+    <br><br>
+    <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <hr>
+            <legend>DATA ALAMAT ASAL</legend>
+        <hr>
+            <div>
+                <label for="Alamat">Alamat:</label>
+            </div>
+            <div>
+                <textarea name="Alamat" id="" cols="30" rows="3"></textarea>
+            </div>
+            <div>
+                <label for="Provinsi">Provinsi:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Provinsi">
+            </div>
+            <div>
+                <label for="Kabupaten">Kabupaten:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Kabupaten">
+            </div>
+            <div>
+                <label for="Kecamatan">Kecamatan:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Kecamatan">
+            </div>
+            <div>
+                <label for="Kode Pos">Kode Pos:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Kode Pos">
+            </div>
+    </div>
+    <br>
+    <input type="Submit" value="Submit" name="Proses" />
+    <hr>
+    </form>
+</body>
+</html>
